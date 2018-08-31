@@ -1,5 +1,5 @@
 # Datapacks
-Just a list of datapacks I've written or find interesting.
+A list of Minecraft datapacks I've written or contributed to.
 
 Datapack        | Category  | Description
 --------------- | --------- | -----------
