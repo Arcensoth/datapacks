@@ -20,7 +20,7 @@ Datapack        | Category  | Description
 --------------- | --------- | -----------
 [Benchmarks]    | Utility   | Various benchmarks of commands and other datapack assets.
 
-[Benchbuster]: https://github.com/Arcensoth/benchmarker-datapack
+[Benchbuster]: https://github.com/Arcensoth/benchbuster-datapack
 [Playtracker]: https://github.com/Arcensoth/playtracker-datapack
 [SMF]: https://github.com/Arcensoth/smf-datapack
 [Tickbuster]: https://github.com/Arcensoth/tickbuster-datapack
