@@ -16,9 +16,11 @@ Datapack        | Category  | Description
 ## Other Datapacks
 Other datapacks that don't necessarily have any structure.
 
-Datapack        | Category  | Description
---------------- | --------- | -----------
-[Benchmarks]    | Utility   | Various benchmarks of commands and other datapack assets.
+Datapack            | Category  | Description
+------------------- | --------- | -----------
+[Benchmarks]        | Utility   | Various benchmarks of commands and other datapack assets.
+[Binary Block Tags] | Utility   | Binary block tags for logarithmic lookup time.
+[Binary Item Tags]  | Utility   | Binary item tags for logarithmic lookup time.
 
 [Benchbuster]: https://github.com/Arcensoth/benchbuster-datapack
 [Playtracker]: https://github.com/Arcensoth/playtracker-datapack
@@ -27,3 +29,5 @@ Datapack        | Category  | Description
 [Timekeeper]: https://github.com/Arcensoth/timekeeper-datapack
 [Trigger Teams]: https://github.com/Arcensoth/trigger-teams-datapack
 [Benchmarks]: https://github.com/Arcensoth/benchmarks-datapack
+[Binary Block Tags]: https://github.com/Arcensoth/binary-block-tags-datapack
+[Binary Item Tags]: https://github.com/Arcensoth/binary-item-tags-datapack
