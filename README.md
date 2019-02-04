@@ -7,6 +7,7 @@ These datapacks are SMF-compliant so they are easy to install and use.
 Datapack        | Category  | Description
 --------------- | --------- | -----------
 [Benchbuster]   | Utility   | Brute-force benchmarking using sub-tick timing.
+[Delogger]      | Utility   | Lightweight logging API for debugging functions.
 [Playtracker]   | Utility   | Player action tracking with event hooks.
 [SMF]           | Utility   | SMF core utilities and exemplary pack.
 [Tickbuster]    | Utility   | Lag-free background computation with subtick timing.
@@ -23,6 +24,7 @@ Datapack            | Category  | Description
 [Binary Item Tags]  | Utility   | Binary item tags for logarithmic lookup time.
 
 [Benchbuster]: https://github.com/Arcensoth/benchbuster-datapack
+[Delogger]: https://github.com/Arcensoth/delogger-datapack
 [Playtracker]: https://github.com/Arcensoth/playtracker-datapack
 [SMF]: https://github.com/Arcensoth/smf-datapack
 [Tickbuster]: https://github.com/Arcensoth/tickbuster-datapack
