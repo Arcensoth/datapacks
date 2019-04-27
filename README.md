@@ -14,6 +14,16 @@ Datapack        | Category  | Description
 [Timekeeper]    | Utility   | Time tracking and day-night cycle hooks.
 [Trigger Teams] | Utility   | Allow players to freely change teams for PvP and group events.
 
+## Recipe Packs
+Datapacks that contain only recipes.
+
+Name                | Description
+------------------- | -----------
+[Fair Stairs]       | Increases the number of stairs crafted from blocks.
+[Flexible Stone]    | Allows crafting stone items from more stone types.
+[Paper Arrows]      | Allows crafting arrows with paper instead of feathers.
+[Turtle Boxes]      | Allows crafting shulker boxes from turtle shells.
+
 ## Other Datapacks
 Other datapacks that don't necessarily have any structure.
 
@@ -30,6 +40,12 @@ Datapack            | Category  | Description
 [Tickbuster]: https://github.com/Arcensoth/tickbuster-datapack
 [Timekeeper]: https://github.com/Arcensoth/timekeeper-datapack
 [Trigger Teams]: https://github.com/Arcensoth/trigger-teams-datapack
+
+[Fair Stairs]: https://github.com/Arcensoth/fair-stairs-datapack
+[Flexible Stone]: https://github.com/Arcensoth/flexible-stone-datapack
+[Paper Arrows]: https://github.com/Arcensoth/paper-arrows-datapack
+[Turtle Boxes]: https://github.com/Arcensoth/turtle-boxes-datapack
+
 [Benchmarks]: https://github.com/Arcensoth/benchmarks-datapack
 [Binary Block Tags]: https://github.com/Arcensoth/binary-block-tags-datapack
 [Binary Item Tags]: https://github.com/Arcensoth/binary-item-tags-datapack
