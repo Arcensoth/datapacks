@@ -222,7 +222,7 @@ The second form is used for multiple event handlers:
 
 Declare arguments that should be present in the scoreboard before the function is called.
 
-TODO
+TODO document @args
 
 ```mcfunction
 #> imp:utils/timestring
@@ -240,7 +240,7 @@ TODO
 
 Declare arguments that should be present in the global NBT register before the function is called.
 
-TODO
+TODO document @args_nbt
 
 ```mcfunction
 #> imp:utils/resolve_text
@@ -258,7 +258,7 @@ TODO
 
 Declare values that will be present in the scoreboard after the function completes.
 
-TODO
+TODO document @returns
 
 ```mcfunction
 #> imp:utils/timestring
@@ -277,7 +277,7 @@ TODO
 
 Declare values that will be present in the global NBT register after the function completes.
 
-TODO
+TODO document @returns_nbt
 
 ```mcfunction
 #> imp:utils/timestring
