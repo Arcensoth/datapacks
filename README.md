@@ -22,6 +22,7 @@ Name                | Description
 [Fair Stairs]       | Increases the number of stairs crafted from blocks.
 [Flexible Stone]    | Allows crafting stone items from more stone types.
 [Paper Arrows]      | Allows crafting arrows with paper instead of feathers.
+[Phantom Elytra]    | Craft elytra from phantom membrane and leather.
 [Turtle Boxes]      | Allows crafting shulker boxes from turtle shells.
 
 ## Other Datapacks
@@ -44,6 +45,7 @@ Datapack            | Category  | Description
 [Fair Stairs]: https://github.com/Arcensoth/fair-stairs-datapack
 [Flexible Stone]: https://github.com/Arcensoth/flexible-stone-datapack
 [Paper Arrows]: https://github.com/Arcensoth/paper-arrows-datapack
+[Phantom Membrane]: https://github.com/Arcensoth/phantom-membrane-datapack
 [Turtle Boxes]: https://github.com/Arcensoth/turtle-boxes-datapack
 
 [Benchmarks]: https://github.com/Arcensoth/benchmarks-datapack
