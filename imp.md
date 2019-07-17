@@ -1,6 +1,6 @@
-# IMP: Isolated Module Protocol
+# IMP: IMP Module Protocol
 
-> This document is a **work-in-progress**!
+> This document is a **work-in-progress**! Significant changes need to be made in order to update to Minecraft 1.14 and to reflect the changes made in the [IMP datapack](https://github.com/Arcensoth/imp-datapack).
 
 - [Standards and guidelines](#standards-and-guidelines)
   - [Leave vanilla alone](#leave-vanilla-alone)

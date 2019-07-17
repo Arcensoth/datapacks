@@ -45,7 +45,7 @@ Datapack            | Category  | Description
 [Fair Stairs]: https://github.com/Arcensoth/fair-stairs-datapack
 [Flexible Stone]: https://github.com/Arcensoth/flexible-stone-datapack
 [Paper Arrows]: https://github.com/Arcensoth/paper-arrows-datapack
-[Phantom Membrane]: https://github.com/Arcensoth/phantom-membrane-datapack
+[Phantom Elytra]: https://github.com/Arcensoth/phantom-elytra-datapack
 [Turtle Boxes]: https://github.com/Arcensoth/turtle-boxes-datapack
 
 [Benchmarks]: https://github.com/Arcensoth/benchmarks-datapack
