@@ -7,7 +7,7 @@
   - [`@user`][function-annotation-user]
   - [`@public`][function-annotation-public]
   - [`@context`][function-annotation-context]
-  - [`@parents`][function-annotation-parents]
+  - [`@within`][function-annotation-within]
   - [`@handles`][function-annotation-handles]
   - [`@args`][function-annotation-args]
   - [`@args_nbt`][function-annotation-args_nbt]
@@ -119,7 +119,7 @@ Sometimes it's necessary to be more verbose, especially if the context is being 
 #
 # @context temporary entity used to extract coords from nbt
 #
-# @parents imp:log/calc/coords
+# @within imp:log/calc/coords
 ```
 
 Public functions commonly use `@context any` which does not have any special meaning but serves to compliment `@public` by explicitly stating that the function will operate correctly under any context:
@@ -134,9 +134,9 @@ Public functions commonly use `@context any` which does not have any special mea
 # @context any
 ```
 
-### Function annotation `@parents`
+### Function annotation `@within`
 
-Declare that the function is a _child_ function and should only ever be called from within one of its _parent_ functions.
+Declare that the function is a **child** function and should only ever be called from _within_ one of its **parent** functions.
 
 This pattern is commonly used when a function needs conditional logic but it would be suboptimal to include said logic in the same function. This is where a branch is used, and how function trees are constructed.
 
@@ -149,7 +149,7 @@ This annotation has two forms. The first is a short-form that should be used whe
 #
 # An imaginary example function.
 #
-# @parents namespace:some/parent/function
+# @within namespace:some/parent/function
 ```
 
 The second form spans multiple lines and can be used for any number of parent functions:
@@ -159,7 +159,7 @@ The second form spans multiple lines and can be used for any number of parent fu
 #
 # An imaginary example function.
 #
-# @parents
+# @within
 #   namespace:some/parent/function
 #   namespace:another/parent/function
 ```
@@ -180,14 +180,14 @@ For example, a public parent function is created that calls the child function w
 execute as @e[type=minecraft:area_effect_cloud, tag=namespace.marker] at @s run function namespace:my/child/function
 ```
 
-And the child function documents this using `@parents`:
+And the child function documents this using `@within`:
 
 ```mcfunction
 #> namespace:my/child/function
 #
 # @context marker entity
 #
-# @parents imp:utils/resolve_text
+# @within imp:utils/resolve_text
 ```
 
 ### Function annotation `@handles`
@@ -196,7 +196,7 @@ Declare that the function is an event handler for one or more function tags.
 
 > Whether this should be used for all function tags is undecided, but the likely answer is: no. This annotation was primarily introduced to compliment `@context` in helping to remind the developer - at a glance - of the circumstances in which the function will be running.
 
-Similar to `@parents`, this annotation has two forms. The first form is used for a single event handler:
+Similar to `@within`, this annotation has two forms. The first form is used for a single event handler:
 
 ```mcfunction
 #> imp:load
@@ -296,7 +296,7 @@ TODO document @returns_nbt
 [function-annotation-user]: #function-annotation-user
 [function-annotation-public]: #function-annotation-public
 [function-annotation-context]: #function-annotation-context
-[function-annotation-parents]: #function-annotation-parents
+[function-annotation-within]: #function-annotation-within
 [function-annotation-handles]: #function-annotation-handles
 [function-annotation-args]: #function-annotation-args
 [function-annotation-args_nbt]: #function-annotation-args_nbt
