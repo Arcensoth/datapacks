@@ -1,4 +1,4 @@
-# IMP Function Documentation Format (IMPDoc)
+# IMP Function Documentation Format (impdoc)
 
 > This document is a **work-in-progress**!
 
@@ -14,15 +14,17 @@
   - [`@returns`][function-annotation-returns]
   - [`@returns_nbt`][function-annotation-returns_nbt]
 
-The goal is to create a standard function documentation format that:
+The goal is to create a documentation format for functions that:
 
-1. is easy to read and write; and
-2. provides useful information to the developer; and
-3. allows external tools (such as syntax highlighters and documentation compilers) to quickly and reliably identify the different components of a function.
+1. provides important and useful information; and
+2. identifies and outlines common patterns; and
+3. is easy to read and write.
+
+These goals also have the intended side-effect of allowing external tools, such as syntax highlighters and documentation compilers, to quickly and reliably identify the different components of a function.
 
 ## Function headers
 
-A function always begins with a series of comments that describe its purpose, context, and interface:
+A function always begins with a **function header**, which is a series of comments that describe its purpose, context, and interface:
 
 ```mcfunction
 #> imp:core/load
