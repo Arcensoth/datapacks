@@ -46,7 +46,7 @@ This line requires adjustment when changing the name/location of the function, b
 
 > The first line of the function header is preceded by `>` to denote an imaginary block comment. This is an alternate, vanilla-compatible comment style that allows syntax highlighters and other external tools to quickly and reliably identify block comments.
 
-The next section of the function header is description of the function's purpose. This can be split into multiple paragraphs:
+The next section of the function header is a description of the function's purpose. This can be split into multiple paragraphs:
 
 ```mcfunction
 # Main loading procedure with the core entity as context.
@@ -66,7 +66,7 @@ Similar to the reason why we use the block comment syntax, these annotations hel
 
 ### Function annotation `@user`
 
-Declare that the function is a _user_ function. User functions are intended to be run from chat by operators.
+Declare that the function is a **user** function. User functions are intended to be run from chat by operators.
 
 ```mcfunction
 #> imp:-user/menu
@@ -76,7 +76,7 @@ Declare that the function is a _user_ function. User functions are intended to b
 
 ### Function annotation `@public`
 
-Declare that the function is a _public_ function. Public functions are designed to be called by other modules, and as such should be well-documented and tested for other developers.
+Declare that the function is a **public** function. Public functions are designed to be called by other modules, and so they should be well-documented and tested for other developers.
 
 ```mcfunction
 #> imp:utils/resolve_text
@@ -100,7 +100,7 @@ The context is an arbitrary string but should be minimally descriptive. For exam
 # @context root
 ```
 
-The context need not be self-explanatory, but it is good practice to be unambiguous and consistent:
+The context does not need to be self-explanatory, but it is good practice to be unambiguous and consistent:
 
 ```mcfunction
 #> imp:core/load
@@ -164,7 +164,7 @@ The second form spans multiple lines and can be used for any number of parent fu
 #   namespace:another/parent/function
 ```
 
-This pattern may also be used for API functions that require a certain context, and would otherwise place the burder of setting the context on the developer. This also helps to ensure that future versions of the function remain backwards-compatible.
+This pattern may also be used for API functions that require a certain context, and would otherwise place the burden of setting the context on the developer. This also helps to ensure that future versions of the function remain backwards-compatible.
 
 For example, a public parent function is created that calls the child function with the correct context:
 
@@ -187,14 +187,14 @@ And the child function documents this using `@within`:
 #
 # @context marker entity
 #
-# @within imp:utils/resolve_text
+# @within namespace:my/parent/function
 ```
 
 ### Function annotation `@handles`
 
 Declare that the function is an event handler for one or more function tags.
 
-> Whether this should be used for all function tags is undecided, but the likely answer is: no. This annotation was primarily introduced to compliment `@context` in helping to remind the developer - at a glance - of the circumstances in which the function will be running.
+> Whether this should be used for all function tags is undecided, but the likely answer is: no. This annotation was primarily introduced to compliment `@context` in helping to remind the developer - at a glance - of the circumstances under which the function will be running.
 
 Similar to `@within`, this annotation has two forms. The first form is used for a single event handler:
 
@@ -222,7 +222,7 @@ The second form is used for multiple event handlers:
 
 Declare arguments that should be present in the scoreboard before the function is called.
 
-TODO document @args
+> TODO document @args: `<fakeplayer> <objective>`
 
 ```mcfunction
 #> imp:utils/timestring
@@ -240,7 +240,7 @@ TODO document @args
 
 Declare arguments that should be present in the global NBT register before the function is called.
 
-TODO document @args_nbt
+> TODO document @args_nbt: `<path>: <type>`
 
 ```mcfunction
 #> imp:utils/resolve_text
@@ -258,7 +258,7 @@ TODO document @args_nbt
 
 Declare values that will be present in the scoreboard after the function completes.
 
-TODO document @returns
+> TODO document @returns: `<fakeplayer> <objective>`
 
 ```mcfunction
 #> imp:utils/timestring
@@ -277,7 +277,7 @@ TODO document @returns
 
 Declare values that will be present in the global NBT register after the function completes.
 
-TODO document @returns_nbt
+> TODO document @returns_nbt: `<path>: <type>`
 
 ```mcfunction
 #> imp:utils/timestring
