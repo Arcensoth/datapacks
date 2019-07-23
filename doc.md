@@ -1,4 +1,4 @@
-# Function Documentation Format
+# IMP Function Documentation Format (IMPDoc)
 
 > This document is a **work-in-progress**!
 
