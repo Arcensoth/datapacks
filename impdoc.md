@@ -13,6 +13,7 @@
   - [`@args_nbt`][function-annotation-args_nbt]
   - [`@returns`][function-annotation-returns]
   - [`@returns_nbt`][function-annotation-returns_nbt]
+  - [`@patch`][function-annotation-patch]
 
 The goal is to create a documentation format for functions that:
 
@@ -293,6 +294,20 @@ Declare values that will be present in the global NBT register after the functio
 #       The resolved time string.
 ```
 
+### Function annotation `@patch`
+
+Declare that the function is a **patch** function. Patch functions are intentional overrides.
+
+```mcfunction
+#> imp:utils/timestring/inner
+#
+# Extend IMP's timestring to include sub-tick resolution via Tickbuster.
+#
+# @patch
+#
+# [...]
+```
+
 [function-headers]: #function-headers
 [function-annotations]: #function-annotations
 [function-annotation-user]: #function-annotation-user
@@ -304,3 +319,4 @@ Declare values that will be present in the global NBT register after the functio
 [function-annotation-args_nbt]: #function-annotation-args_nbt
 [function-annotation-returns]: #function-annotation-returns
 [function-annotation-returns_nbt]: #function-annotation-returns_nbt
+[function-annotation-patch]: #function-annotation-patch
