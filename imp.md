@@ -1,8 +1,6 @@
-# IMP: IMP Module Protocol
+# IMP: Interoperable Module Protocol
 
-> This document is a **work-in-progress**!
-
-> This document is slightly outdated and requires changes with respect to Minecraft 1.14 the [IMP datapack](https://github.com/Arcensoth/imp-datapack).
+> This document is **slightly outdated** and requires changes with respect to Minecraft 1.15 and the [IMP datapack](https://github.com/Arcensoth/imp-datapack).
 
 - [Standards and guidelines](#standards-and-guidelines)
   - [Leave vanilla alone](#leave-vanilla-alone)
