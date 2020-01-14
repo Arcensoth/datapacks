@@ -1,16 +1,25 @@
 # Datapacks
 Minecraft datapacks I've written or contributed to.
 
-## Datapack Modules
-These datapacks are SMF-compliant so they are easy to install and use.
+## IMP Modules
+[![imp-module-badge]](https://github.com/Arcensoth/imp-datapack)
+
+These datapacks are [IMP-compliant](./imp.md) so they're easy to install and manage.
+
+Release                                                                                             | Name          | Category  | Description
+--------------------------------------------------------------------------------------------------- | ------------- | --------- | -----------
+[![imp-github-release-badge]](https://github.com/Arcensoth/imp-datapack/releases)                   | [IMP]         | Engine    | IMP core engine and module manager.
+[![tickbuster-github-release-badge]](https://github.com/Arcensoth/tickbuster-datapack/releases)     | [Tickbuster]  | Library   | Lag-free background computation with subtick timing.
+[![impbuster-github-release-badge]](https://github.com/Arcensoth/impbuster-datapack/releases)       | [Impbuster]   | Library   | Sub-tick utilities for IMP.
+[![chunkbuster-github-release-badge]](https://github.com/Arcensoth/chunkbuster-datapack/releases)   | [Chunkbuster] | Utility   | Lag-friendly and CPU-optimized chunk pre-generator.
+
+## Outdated Modules
+These datapacks were written for an older version of Minecraft and have not been updated.
 
 Datapack        | Category  | Description
 --------------- | --------- | -----------
 [Benchbuster]   | Utility   | Brute-force benchmarking using sub-tick timing.
-[Delogger]      | Utility   | Lightweight logging API for debugging functions.
 [Playtracker]   | Utility   | Player action tracking with event hooks.
-[SMF]           | Utility   | SMF core utilities and exemplary pack.
-[Tickbuster]    | Utility   | Lag-free background computation with subtick timing.
 [Timekeeper]    | Utility   | Time tracking and day-night cycle hooks.
 [Trigger Teams] | Utility   | Allow players to freely change teams for PvP and group events.
 
@@ -34,11 +43,20 @@ Datapack            | Category  | Description
 [Binary Block Tags] | Utility   | Binary block tags for logarithmic lookup time.
 [Binary Item Tags]  | Utility   | Binary item tags for logarithmic lookup time.
 
-[Benchbuster]: https://github.com/Arcensoth/benchbuster-datapack
-[Delogger]: https://github.com/Arcensoth/delogger-datapack
-[Playtracker]: https://github.com/Arcensoth/playtracker-datapack
-[SMF]: https://github.com/Arcensoth/smf-datapack
+[imp-module-badge]: https://img.shields.io/static/v1.svg?label=imp&message=module&color=%23AA8ED6&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjEuNv1OCegAAAH2SURBVFhH1Zk9TgJRFIWHSEhYAbU2WNHTkbAMjYX27MHYETdACwkFBnZBo6V70BVoTIyD35l3gQwgMGbGuX7JCXPvfT8nb37ziBaLxUkcxz30oF/F0RHQrkr7FrpBfTREM5OOlVOtpbbWbS87vdjBCuIRqlufFJQr1NpogF5Dj8OorfVpE1ZsuBTU6mgUegSIeypMLV5B7hE1rW8CcRfNUWzNMqO+oDG6NmwCpXNyT6HVGnJTTTy2OAX5N3SLmoQTfn9tbBMbS2M20R16D5U05McyeG/xTqjnZmyTQ2PLmwxeWewOedP5P+PgK6T8IE/odHlnbl2gZWOewh1PcB3SfpCnxJwgrpF4DqXyMS81sxfwtIqp1RPkdB3OQ7l8zMv6jUNCr6/CnndZkRdom73E4MBqbpCnxBzH+ip5CWk/mKeqVk+fQy6RN5fPwCXyJoN9i90hbzI4tNgd8iaDM4vdIW//wqD7U+z+JnH/mPH9oObX96tOEPj9WBAEvj+3yPn+YBUktbVR+irKA6S2RlZQn4RmpTIxO9vgvIFKu6M1tzyYnd3QrkOjj9Dl77A5O2ZjPzS+QJ+ha/FoLnRp0x+HmSx8JTVHZnNL6K/TXdg1aWMfd1p/gkEaDFLUBub+GyILDFbYFnBuMEdhm+i5w0S5/w2xTRR9AyY9bVacGuF5AAAAAElFTkSuQmCC
+
+[imp-github-release-badge]: https://img.shields.io/github/release/Arcensoth/imp-datapack.svg?logo=github&label=IMP
+[tickbuster-github-release-badge]: https://img.shields.io/github/release/Arcensoth/tickbuster-datapack.svg?logo=github&label=Tickbuster
+[impbuster-github-release-badge]: https://img.shields.io/github/release/Arcensoth/impbuster-datapack.svg?logo=github&label=Impbuster
+[chunkbuster-github-release-badge]: https://img.shields.io/github/release/Arcensoth/chunkbuster-datapack.svg?logo=github&label=Chunkbuster
+
+[IMP]: https://github.com/Arcensoth/imp-datapack
 [Tickbuster]: https://github.com/Arcensoth/tickbuster-datapack
+[Impbuster]: https://github.com/Arcensoth/impbuster-datapack
+[Chunkbuster]: https://github.com/Arcensoth/chunkbuster-datapack
+
+[Benchbuster]: https://github.com/Arcensoth/benchbuster-datapack
+[Playtracker]: https://github.com/Arcensoth/playtracker-datapack
 [Timekeeper]: https://github.com/Arcensoth/timekeeper-datapack
 [Trigger Teams]: https://github.com/Arcensoth/trigger-teams-datapack
 
