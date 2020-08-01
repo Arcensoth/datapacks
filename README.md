@@ -4,7 +4,7 @@ Minecraft datapacks I've written or contributed to.
 ## IMP Modules
 [![imp-module-badge]](https://github.com/Arcensoth/imp-datapack)
 
-These datapacks are [IMP-compliant](./imp.md) so they're easy to install and manage.
+These datapacks are [IMP-compliant](https://github.com/Arcensoth/imp-spec) so they're easy to install and manage.
 
 Release                                                                                             | Name          | Category  | Description
 --------------------------------------------------------------------------------------------------- | ------------- | --------- | -----------
